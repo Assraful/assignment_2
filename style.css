@@ -3,6 +3,10 @@ body {
 
 }
 
+.nav-container{
+    background-color: #FF900E;
+    display: flex;
+}
 nav {
     display: flex;
     justify-content: space-between;
@@ -25,7 +29,7 @@ nav a {
     width: 100%;
     height: 600px;
     border-radius: 5px;
-    
+
 }
 
 button {
@@ -59,32 +63,32 @@ button {
     line-height: 0px;
 }
 
-/* other section styling */
+/* team section styling */
 
-.img-container{
+.img-container {
     display: flex;
     justify-content: space-around;
     margin-top: 15px;
     gap: 15px;
 }
 
-.team-img{
+.team-img {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap:15px;
+    gap: 15px;
 }
 
-.img-container img{
-    width:250px;
-    height:250px;
+.img-container img {
+    width: 250px;
+    height: 250px;
 }
 
-.team-info{
-    text-align:center;
+.team-info {
+    text-align: center;
     margin-top: 150px;
 }
 
-.btn-team{
+.btn-team {
     background: #FF900E;
     width: 150px;
     height: 40px;
@@ -95,6 +99,47 @@ button {
     border: none;
     border-radius: 5px;
     margin-top: 5px;
+}
+
+/* feature section styling start here */
+.feature-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    gap:15px;
+    border: 1px solid salmon;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.feature-info {
+    text-align: center;
+    width: 586px;
+    height: 982px;
+    border: 1px solid salmon;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.feature-container img {
+    width: 450px;
+    height: 1059px;
+    border: 1px solid salmon;
+    border-radius: 5px;
+    
+}
+
+.feature-btn{
+    background: #FF900E;
+    width: 150px;
+    height: 60px;
+    color: white;
+    margin-bottom: 30px;
+    margin-left: 15%;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;  
 }
 
 /* Some facts section styling start from here */
@@ -157,6 +202,23 @@ p {
     margin-left: 10px;
 }
 
+/* own choose section styling */
+
+h2{
+    text-align: center;
+    margin-top: 15px;
+}
+.bird-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+   
+}
+.bird-container img{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
 /* footer section */
 
 footer {
@@ -178,10 +240,18 @@ footer {
 
 /* responsive section start from here */
 
-/* @media only screen and (max-width:576px) {
-    .container{
+@media only screen and (max-width:576px) {
+    .nav-container,
+    .brand-container,
+    .img-container,
+    .feature-container,
+    .container,
+    .sponsors-container,
+    .bird-container,
+    footer
+    {
         grid-template-columns: repeat(1, 1fr);
         flex-direction: column;
     }
     
-} */
+}
