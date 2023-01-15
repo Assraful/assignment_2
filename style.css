@@ -38,6 +38,7 @@ button {
     text-align: center;
     border: none;
     border-radius: 5px;
+    margin-top: 5px;
 }
 
 .branding {
@@ -58,9 +59,43 @@ button {
     line-height: 0px;
 }
 
+/* other section styling */
 
+.img-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    gap: 15px;
+}
 
+.team-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:15px;
+}
 
+.img-container img{
+    width:250px;
+    height:250px;
+}
+
+.team-info{
+    text-align:center;
+    margin-top: 150px;
+}
+
+.btn-team{
+    background: #FF900E;
+    width: 150px;
+    height: 40px;
+    color: white;
+    margin-bottom: 15px;
+    margin-left: 15%;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+}
 
 /* Some facts section styling start from here */
 
