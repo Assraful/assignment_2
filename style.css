@@ -13,6 +13,40 @@ nav a {
     margin-right: 10px;
 }
 
+.brand {
+    color: #131313;
+    font-weight: 500;
+    font-size: 35px;
+}
+/* header section ended here */
+
+.brand-container{
+
+}
+
+.brand-container img{
+    width: 100%;
+    height: 600px;
+}
+.branding{
+    text-align: center;
+    border: 1px solid sandybrown;
+    border-radius: 5px;
+    height: 250px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 35%;
+    margin-top: 30px;
+    
+}
+
+
+    
+    
+
+
+
 /* Some facts section styling start from here */
 
 .container {
@@ -35,24 +69,26 @@ nav a {
     box-sizing: border-box;
 }
 
-.item:hover{
-    background-color:lightcoral;
+.item:hover {
+    background-color: lightcoral;
 }
+
 .item img {
     margin-top: 15px;
 }
 
 /* sponsors section styling */
 
-.sponsors-info h2,p{
+.sponsors-info h2,
+p {
     text-align: center;
 }
 
-.sponsors-container{
+.sponsors-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:10px;
+    gap: 10px;
 }
 
 .sponsors {
@@ -62,9 +98,9 @@ nav a {
     height: 100px;
     margin-top: 15px;
 }
-    
-    
-.sponsors img{
+
+
+.sponsors img {
     width: 155px;
     height: 50px;
     margin-top: 10px;
@@ -73,7 +109,7 @@ nav a {
 
 /* footer section */
 
-footer{
+footer {
     background: #FFF4E7;
     width: 100%;
     height: 100px;
@@ -83,9 +119,9 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
-   
+
 
 
 
